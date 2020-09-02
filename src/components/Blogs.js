@@ -6,3 +6,7 @@ export const Blogs = () => {
   return <h2>blog list section</h2>
 }
 export default Blogs
+
+
+// https://www.youtube.com/watch?v=Oc_ITwxiG-Y
+// @2:5016
