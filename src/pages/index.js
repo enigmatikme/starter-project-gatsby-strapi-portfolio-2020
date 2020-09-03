@@ -6,6 +6,7 @@ import Services from "../components/Services"
 import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
+import SEO from "../components/SEO"
 
 //you have access to nodes from queries
 export default ({data}) => {
@@ -14,6 +15,7 @@ export default ({data}) => {
   } = data;
   return (
     <Layout>
+      <SEO title="Home"/>
       <Hero />
       <Services />
       <Jobs />
